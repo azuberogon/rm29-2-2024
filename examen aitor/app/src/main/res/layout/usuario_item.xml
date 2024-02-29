@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:gravity="center_vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8AB88C"
+        android:padding="8dp"
+        android:layout_marginBottom="10dp">
+
+        <ImageView
+            android:id="@+id/listview_img_usuarioIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_usuario"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="8dp"/>
+
+        <TextView
+            android:id="@+id/listview_tv_nombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/listview_img_usuarioIcon"
+            android:layout_marginLeft="25dp"
+            android:text="@string/form_tv_nombre"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        <TextView
+            android:id="@+id/listview_tv_edad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/listview_tv_nombre"
+            android:layout_marginLeft="30dp"
+            android:text="@string/form_tv_edad"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        <TextView
+            android:id="@+id/listview_tv_Profesion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/listview_tv_edad"
+            android:layout_marginRight="15dp"
+            android:text="@string/form_tv_profesion"
+            android:layout_marginLeft="30dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+    </RelativeLayout>
+
+</FrameLayout>

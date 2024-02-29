@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ExamenPMDM</string>
+    <string name="main_btn_formulario">Formulario</string>
+    <string name="btn_volver">volver</string>
+    <string name="btn_guardar">guardar</string>
+    <string name="form_tv_nombre">Nombre</string>
+    <string name="form_tv_edad">Edad</string>
+    <string name="form_tv_profesion">Profesion</string>
+    <string name="main_btn_ListView">Lista</string>
+    <string name="exmn">EXMN</string>
+</resources>
